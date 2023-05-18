@@ -30,16 +30,15 @@ const ActiveBidPage = () => {
             />
             <div className="flex flex-col items-start justify-start">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold text-black_900 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Kevin Cranel
               </Text>
               <Text
-                className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                as="h1"
-                variant="h1"
+                className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                size="md"
               >
                 @kecrane
               </Text>
@@ -48,9 +47,8 @@ const ActiveBidPage = () => {
           <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start mt-[50px] px-[18px] w-full">
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 GENERAL
               </Text>
@@ -65,11 +63,7 @@ const ActiveBidPage = () => {
                       className="h-6 w-6"
                       alt="clock"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Dashboard
                     </Text>
                   </div>
@@ -85,9 +79,8 @@ const ActiveBidPage = () => {
                       alt="car"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Message
                     </Text>
@@ -104,9 +97,8 @@ const ActiveBidPage = () => {
                       alt="settings"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Settings
                     </Text>
@@ -116,9 +108,8 @@ const ActiveBidPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MARKETPLACE
               </Text>
@@ -133,11 +124,7 @@ const ActiveBidPage = () => {
                       className="h-6 w-6"
                       alt="user"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Market
                     </Text>
                   </div>
@@ -149,11 +136,7 @@ const ActiveBidPage = () => {
                       className="h-6 w-6"
                       alt="camera"
                     />
-                    <Text
-                      className="font-medium text-gray_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_900 tracking-[0.18px]" size="xl">
                       Active Bid
                     </Text>
                   </div>
@@ -168,11 +151,7 @@ const ActiveBidPage = () => {
                       className="h-6 w-6"
                       alt="clock One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Saved
                     </Text>
                   </div>
@@ -181,9 +160,8 @@ const ActiveBidPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MY PROFILE
               </Text>
@@ -198,11 +176,7 @@ const ActiveBidPage = () => {
                       className="h-6 w-6"
                       alt="user One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Collection
                     </Text>
                   </div>
@@ -217,11 +191,7 @@ const ActiveBidPage = () => {
                       className="h-6 w-6"
                       alt="computer"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Wallet
                     </Text>
                   </div>
@@ -237,9 +207,8 @@ const ActiveBidPage = () => {
                       alt="clock Two"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       History
                     </Text>
@@ -263,17 +232,16 @@ const ActiveBidPage = () => {
                 />
               </Button>
               <Text
-                className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Help Center
               </Text>
               <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                 <Text
-                  className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                  size="md"
                 >
                   <>
                     Having trouble in Enefti?
@@ -299,7 +267,7 @@ const ActiveBidPage = () => {
               value={searchinputvalue}
               onChange={(e) => setSearchinputvalue(e)}
               wrapClassName="flex md:flex-1 md:mt-0 my-0.5 w-[45%] md:w-full"
-              className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+              className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
               name="SearchInput"
               placeholder="Search items, collections, and users"
               prefix={
@@ -373,9 +341,9 @@ const ActiveBidPage = () => {
           </div>
           <div className="flex flex-col font-urbanist items-start justify-start w-[94%] md:w-full">
             <Text
-              className="font-semibold text-black_900 text-left tracking-[0.34px]"
-              as="h1"
-              variant="h1"
+              className="text-black_900 tracking-[0.34px]"
+              as="h2"
+              size="5xl"
             >
               Active Bid
             </Text>
@@ -502,16 +470,15 @@ const ActiveBidPage = () => {
                 <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                   <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Dayco Serpentine Belt
                     </Text>
                     <Text
-                      className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-1 text-gray_500 tracking-[0.12px]"
+                      size="s"
                     >
                       By Marvin McKinney
                     </Text>
@@ -519,9 +486,8 @@ const ActiveBidPage = () => {
                   <div className="flex flex-row items-center justify-between w-full">
                     <div className="flex flex-col font-outfit items-start justify-start">
                       <Text
-                        className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.10px]"
+                        size="xs"
                       >
                         Your Bid
                       </Text>
@@ -532,9 +498,8 @@ const ActiveBidPage = () => {
                           alt="sort"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           18,99 ETH
                         </Text>
@@ -584,16 +549,15 @@ const ActiveBidPage = () => {
                 <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                   <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Bosch Spark Plug
                     </Text>
                     <Text
-                      className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-1 text-gray_500 tracking-[0.12px]"
+                      size="s"
                     >
                       By Guy Hawkins
                     </Text>
@@ -601,9 +565,8 @@ const ActiveBidPage = () => {
                   <div className="flex flex-row items-center justify-between w-full">
                     <div className="flex flex-col font-outfit items-start justify-start">
                       <Text
-                        className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.10px]"
+                        size="xs"
                       >
                         Your Bid
                       </Text>
@@ -614,9 +577,8 @@ const ActiveBidPage = () => {
                           alt="sort One"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           8,99 ETH
                         </Text>
@@ -666,16 +628,15 @@ const ActiveBidPage = () => {
                 <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                   <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Valvoline Engine Oil
                     </Text>
                     <Text
-                      className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-1 text-gray_500 tracking-[0.12px]"
+                      size="s"
                     >
                       By Albert Flores
                     </Text>
@@ -683,9 +644,8 @@ const ActiveBidPage = () => {
                   <div className="flex flex-row items-center justify-between w-full">
                     <div className="flex flex-col font-outfit items-start justify-start">
                       <Text
-                        className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.10px]"
+                        size="xs"
                       >
                         Your Bid
                       </Text>
@@ -696,9 +656,8 @@ const ActiveBidPage = () => {
                           alt="sort Two"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           51,23 ETH
                         </Text>
@@ -748,26 +707,21 @@ const ActiveBidPage = () => {
                 <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                   <div className="flex flex-col gap-1.5 items-start justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Fram Oil Filter
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.12px]" size="s">
                       By Jerome Bell
                     </Text>
                   </div>
                   <div className="flex flex-row items-center justify-between w-full">
                     <div className="flex flex-col font-outfit items-start justify-start">
                       <Text
-                        className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.10px]"
+                        size="xs"
                       >
                         Your Bid
                       </Text>
@@ -778,9 +732,8 @@ const ActiveBidPage = () => {
                           alt="sort Three"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           25,00 ETH
                         </Text>

@@ -24,16 +24,15 @@ const MessagePage = () => {
             />
             <div className="flex flex-col items-start justify-start">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold text-black_900 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Kevin Cranel
               </Text>
               <Text
-                className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                as="h1"
-                variant="h1"
+                className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                size="md"
               >
                 @kecrane
               </Text>
@@ -42,9 +41,8 @@ const MessagePage = () => {
           <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start mt-[50px] px-[18px] w-full">
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-black_900 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-black_900 tracking-[0.12px]"
+                size="s"
               >
                 GENERAL
               </Text>
@@ -59,11 +57,7 @@ const MessagePage = () => {
                       className="h-6 w-6"
                       alt="clock"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Dashboard
                     </Text>
                   </div>
@@ -76,9 +70,8 @@ const MessagePage = () => {
                       alt="user"
                     />
                     <Text
-                      className="font-medium mt-0.5 text-gray_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-0.5 text-gray_900 tracking-[0.18px]"
+                      size="xl"
                     >
                       Message
                     </Text>
@@ -95,9 +88,8 @@ const MessagePage = () => {
                       alt="settings"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Settings
                     </Text>
@@ -107,9 +99,8 @@ const MessagePage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MARKETPLACE
               </Text>
@@ -124,11 +115,7 @@ const MessagePage = () => {
                       className="h-6 w-6"
                       alt="user One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Market
                     </Text>
                   </div>
@@ -143,11 +130,7 @@ const MessagePage = () => {
                       className="h-6 w-6"
                       alt="judge"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Active Bid
                     </Text>
                   </div>
@@ -162,11 +145,7 @@ const MessagePage = () => {
                       className="h-6 w-6"
                       alt="clock One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Saved
                     </Text>
                   </div>
@@ -175,9 +154,8 @@ const MessagePage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MY PROFILE
               </Text>
@@ -192,11 +170,7 @@ const MessagePage = () => {
                       className="h-6 w-6"
                       alt="user Two"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Collection
                     </Text>
                   </div>
@@ -211,11 +185,7 @@ const MessagePage = () => {
                       className="h-6 w-6"
                       alt="computer"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Wallet
                     </Text>
                   </div>
@@ -231,9 +201,8 @@ const MessagePage = () => {
                       alt="clock Two"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       History
                     </Text>
@@ -257,17 +226,16 @@ const MessagePage = () => {
                 />
               </Button>
               <Text
-                className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Help Center
               </Text>
               <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                 <Text
-                  className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                  size="md"
                 >
                   <>
                     Having trouble in Enefti?
@@ -294,7 +262,7 @@ const MessagePage = () => {
                 value={searchinputvalue}
                 onChange={(e) => setSearchinputvalue(e)}
                 wrapClassName="flex mb-[974px] w-[94%]"
-                className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+                className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
                 name="SearchInput"
                 placeholder="Search chat"
                 prefix={
@@ -337,25 +305,23 @@ const MessagePage = () => {
                     />
                     <div className="flex flex-col gap-[5px] items-start justify-start pt-0.5">
                       <Text
-                        className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.16px]"
+                        as="h6"
+                        size="lg"
                       >
                         Jenny Wilson
                       </Text>
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.14px]"
+                        size="md"
                       >
                         How are you?
                       </Text>
                     </div>
                   </div>
                   <Text
-                    className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                    as="h1"
-                    variant="h1"
+                    className="text-gray_500 text-right tracking-[0.12px]"
+                    size="s"
                   >
                     16:00
                   </Text>
@@ -371,25 +337,20 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-start justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Kristin Watson
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.14px]" size="md">
                       Wow, this is really epic
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   18:00
                 </Text>
@@ -404,25 +365,20 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-center justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Darlene Robertson
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.14px]" size="md">
                       Wow, this is really epic
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   08:00
                 </Text>
@@ -437,25 +393,23 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col items-start justify-start pt-0.5">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Arlene McCoy
                     </Text>
                     <Text
-                      className="font-medium mt-1 text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-1 text-gray_500 tracking-[0.14px]"
+                      size="md"
                     >
                       perfect!
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   11:00
                 </Text>
@@ -470,25 +424,23 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col items-start justify-end">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Ralph Edwards
                     </Text>
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.14px]"
+                      size="md"
                     >
                       <>I&#39;ll be there in 2 mins</>
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   11:30
                 </Text>
@@ -503,25 +455,20 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col gap-[5px] items-start justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Darrell Steward
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.14px]" size="md">
                       <>Haha that&#39;s terrifying 😂</>
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   13:00
                 </Text>
@@ -536,25 +483,23 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col items-start justify-end">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Kathryn Murphy
                     </Text>
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.14px]"
+                      size="md"
                     >
                       woohoooo
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   09:30
                 </Text>
@@ -569,25 +514,20 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-start justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Eleanor Pena
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.14px]" size="md">
                       omg, this is amazing
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   09:00
                 </Text>
@@ -602,25 +542,23 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col items-start justify-start pt-0.5">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Cody Fisher
                     </Text>
                     <Text
-                      className="font-medium mt-1 text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-1 text-gray_500 tracking-[0.14px]"
+                      size="md"
                     >
                       aww
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   12:00
                 </Text>
@@ -635,25 +573,20 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col gap-[5px] items-start justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Wade Warren
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.14px]" size="md">
                       Haha oh man
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   12:30
                 </Text>
@@ -668,25 +601,20 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-start justify-start">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Theresa Webb
                     </Text>
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.14px]" size="md">
                       just ideas for next time
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   14:00
                 </Text>
@@ -701,25 +629,23 @@ const MessagePage = () => {
                   />
                   <div className="flex flex-col items-start justify-start pt-0.5">
                     <Text
-                      className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                      as="h1"
-                      variant="h1"
+                      className="text-black_900 tracking-[0.16px]"
+                      as="h6"
+                      size="lg"
                     >
                       Albertus Marque
                     </Text>
                     <Text
-                      className="font-medium mt-1 text-gray_500 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-1 text-gray_500 tracking-[0.14px]"
+                      size="md"
                     >
                       Hahahaha, Impossible
                     </Text>
                   </div>
                 </div>
                 <Text
-                  className="font-medium text-gray_500 text-right tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="text-gray_500 text-right tracking-[0.12px]"
+                  size="s"
                 >
                   14:00
                 </Text>
@@ -731,16 +657,15 @@ const MessagePage = () => {
               <div className="bg-white_A700 flex md:flex-col flex-row md:gap-5 items-center justify-start outline outline-gray_100 p-[27px] sm:px-5 w-full">
                 <div className="flex flex-col items-start justify-end md:ml-[0] ml-[7px]">
                   <Text
-                    className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                    as="h1"
-                    variant="h1"
+                    className="!font-semibold text-black_900 tracking-[0.18px]"
+                    as="h6"
+                    size="xl"
                   >
                     Jenny Wilson
                   </Text>
                   <Text
-                    className="font-medium mt-0.5 text-green_600 text-left tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="mt-0.5 text-green_600 tracking-[0.14px]"
+                    size="md"
                   >
                     Online
                   </Text>
@@ -765,9 +690,8 @@ const MessagePage = () => {
                 <div className="flex flex-col gap-3.5 items-start justify-start w-[56%] md:w-full">
                   <div className="bg-gray_100 border border-gray_300 border-solid flex flex-col items-center justify-start p-2.5 rounded-br-[10px] rounded-tl-[10px] rounded-tr-[10px] w-full">
                     <Text
-                      className="font-normal leading-[180.00%] not-italic text-gray_900_ab text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="!font-normal leading-[180.00%] text-gray_900_ab tracking-[0.14px]"
+                      size="md"
                     >
                       <>
                         Amateurs think about how much money they can make.
@@ -776,20 +700,15 @@ const MessagePage = () => {
                       </>
                     </Text>
                   </div>
-                  <Text
-                    className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                    as="h1"
-                    variant="h1"
-                  >
+                  <Text className="text-gray_500 tracking-[0.12px]" size="s">
                     4:32 Am
                   </Text>
                 </div>
                 <div className="flex flex-col gap-2.5 items-end justify-start md:ml-[0] ml-[105px] w-[85%] md:w-full">
                   <div className="bg-gray_900 flex flex-col items-center justify-start p-3.5 rounded-bl-[12px] rounded-tl-[12px] rounded-tr-[12px] w-full">
                     <Text
-                      className="font-normal leading-[180.00%] not-italic text-left text-white_A700_ab tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="!font-normal leading-[180.00%] text-white_A700_ab tracking-[0.14px]"
+                      size="md"
                     >
                       <>
                         The price of a commodity will never go to zero. When you
@@ -813,9 +732,8 @@ const MessagePage = () => {
                 </div>
                 <div className="bg-gray_100 border border-gray_300 border-solid flex flex-col items-center justify-start p-2.5 rounded-br-[10px] rounded-tl-[10px] rounded-tr-[10px]">
                   <Text
-                    className="font-normal leading-[180.00%] not-italic text-gray_900_ab text-left tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="!font-normal leading-[180.00%] text-gray_900_ab tracking-[0.14px]"
+                    size="md"
                   >
                     <>
                       Amateurs think about how much money they can make.
@@ -827,9 +745,8 @@ const MessagePage = () => {
                 <div className="flex flex-col gap-3.5 items-start justify-start w-[90%] md:w-full">
                   <div className="bg-gray_100 border border-gray_300 border-solid flex flex-col items-center justify-start p-2.5 rounded-br-[10px] rounded-tl-[10px] rounded-tr-[10px] w-full">
                     <Text
-                      className="font-normal leading-[180.00%] not-italic text-gray_900_ab text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="!font-normal leading-[180.00%] text-gray_900_ab tracking-[0.14px]"
+                      size="md"
                     >
                       <>
                         It&#39;s not always easy to do what&#39;s not popular,
@@ -840,20 +757,15 @@ const MessagePage = () => {
                       </>
                     </Text>
                   </div>
-                  <Text
-                    className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                    as="h1"
-                    variant="h1"
-                  >
+                  <Text className="text-gray_500 tracking-[0.12px]" size="s">
                     4:26 Am
                   </Text>
                 </div>
                 <div className="flex flex-col gap-2.5 items-end justify-start md:ml-[0] ml-[87px] w-[88%] md:w-full">
                   <div className="bg-gray_900 flex flex-col items-center justify-start p-3.5 rounded-bl-[12px] rounded-tl-[12px] rounded-tr-[12px] w-full">
                     <Text
-                      className="font-normal leading-[180.00%] not-italic text-left text-white_A700_ab tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
+                      className="!font-normal leading-[180.00%] text-white_A700_ab tracking-[0.14px]"
+                      size="md"
                     >
                       <>
                         99%+ of traders don&#39;t care about Ferraris and
@@ -879,7 +791,7 @@ const MessagePage = () => {
               <div className="bg-white_A700 flex flex-col font-outfit items-center justify-start mt-[188px] outline outline-gray_100 p-4 w-full">
                 <Input
                   wrapClassName="flex w-[96%]"
-                  className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+                  className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
                   name="typingfield"
                   placeholder="Write message"
                   prefix={

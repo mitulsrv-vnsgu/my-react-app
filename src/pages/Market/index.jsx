@@ -31,16 +31,15 @@ const MarketPage = () => {
               />
               <div className="flex flex-col items-start justify-start">
                 <Text
-                  className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-semibold text-black_900 tracking-[0.18px]"
+                  as="h6"
+                  size="xl"
                 >
                   Kevin Cranel
                 </Text>
                 <Text
-                  className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                  size="md"
                 >
                   @kecrane
                 </Text>
@@ -49,9 +48,8 @@ const MarketPage = () => {
             <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start px-[18px] w-full">
               <div className="flex flex-col gap-[13px] justify-start w-full">
                 <Text
-                  className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                  size="s"
                 >
                   GENERAL
                 </Text>
@@ -67,9 +65,8 @@ const MarketPage = () => {
                         alt="clock"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Dashboard
                       </Text>
@@ -86,9 +83,8 @@ const MarketPage = () => {
                         alt="car"
                       />
                       <Text
-                        className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Message
                       </Text>
@@ -105,9 +101,8 @@ const MarketPage = () => {
                         alt="settings"
                       />
                       <Text
-                        className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Settings
                       </Text>
@@ -117,9 +112,8 @@ const MarketPage = () => {
               </div>
               <div className="flex flex-col gap-[13px] justify-start w-full">
                 <Text
-                  className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                  size="s"
                 >
                   MARKETPLACE
                 </Text>
@@ -132,9 +126,8 @@ const MarketPage = () => {
                         alt="user"
                       />
                       <Text
-                        className="font-medium text-gray_900 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_900 tracking-[0.18px]"
+                        size="xl"
                       >
                         Market
                       </Text>
@@ -151,9 +144,8 @@ const MarketPage = () => {
                         alt="judge"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Active Bid
                       </Text>
@@ -170,9 +162,8 @@ const MarketPage = () => {
                         alt="clock One"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Saved
                       </Text>
@@ -182,9 +173,8 @@ const MarketPage = () => {
               </div>
               <div className="flex flex-col gap-[13px] justify-start w-full">
                 <Text
-                  className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                  size="s"
                 >
                   MY PROFILE
                 </Text>
@@ -200,9 +190,8 @@ const MarketPage = () => {
                         alt="user One"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Collection
                       </Text>
@@ -219,9 +208,8 @@ const MarketPage = () => {
                         alt="computer"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Wallet
                       </Text>
@@ -238,9 +226,8 @@ const MarketPage = () => {
                         alt="clock Two"
                       />
                       <Text
-                        className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         History
                       </Text>
@@ -264,17 +251,16 @@ const MarketPage = () => {
                   />
                 </Button>
                 <Text
-                  className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                  as="h6"
+                  size="xl"
                 >
                   Help Center
                 </Text>
                 <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                   <Text
-                    className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                    size="md"
                   >
                     <>
                       Having trouble in Enefti?
@@ -301,7 +287,7 @@ const MarketPage = () => {
               value={searchinputvalue}
               onChange={(e) => setSearchinputvalue(e)}
               wrapClassName="flex md:flex-1 md:mt-0 my-0.5 w-[45%] md:w-full"
-              className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+              className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
               name="SearchInput"
               placeholder="Search items, collections, and users"
               prefix={
@@ -375,9 +361,9 @@ const MarketPage = () => {
           </div>
           <div className="flex flex-col font-urbanist gap-[21px] items-start justify-start w-[95%] md:w-full">
             <Text
-              className="font-semibold text-black_900 text-left tracking-[0.34px]"
-              as="h1"
-              variant="h1"
+              className="text-black_900 tracking-[0.34px]"
+              as="h2"
+              size="5xl"
             >
               Discover
             </Text>
@@ -486,16 +472,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Dayco Serpentine Belt
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Marvin McKinney
                         </Text>
@@ -503,9 +488,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -516,9 +500,8 @@ const MarketPage = () => {
                               alt="sort"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               18,99 ETH
                             </Text>
@@ -568,16 +551,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Mad Ballot Holder
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Angelina Cruzz
                         </Text>
@@ -585,9 +567,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -598,9 +579,8 @@ const MarketPage = () => {
                               alt="sort One"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               18,2 ETH
                             </Text>
@@ -650,16 +630,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Pile of Many Plates
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Ralphi Arness
                         </Text>
@@ -667,9 +646,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -680,9 +658,8 @@ const MarketPage = () => {
                               alt="sort Two"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               4,82 ETH
                             </Text>
@@ -732,16 +709,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Worldpac Alternator
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Annette Black
                         </Text>
@@ -749,9 +725,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -762,9 +737,8 @@ const MarketPage = () => {
                               alt="sort Three"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               4,82 ETH
                             </Text>
@@ -814,16 +788,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Duralast Ball Joint - Upper
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Jacob Jones
                         </Text>
@@ -831,9 +804,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -844,9 +816,8 @@ const MarketPage = () => {
                               alt="sort Four"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               4,30 ETH
                             </Text>
@@ -896,16 +867,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Rain X Wiper Blade Front
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Brooklyn Simmons
                         </Text>
@@ -913,9 +883,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -926,9 +895,8 @@ const MarketPage = () => {
                               alt="sort Five"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               25,70 ETH
                             </Text>
@@ -978,16 +946,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Fram Oil Filter
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Eleanor Pena
                         </Text>
@@ -995,9 +962,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -1008,9 +974,8 @@ const MarketPage = () => {
                               alt="sort Six"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               3,89 ETH
                             </Text>
@@ -1060,16 +1025,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Worldpac Spark Plug
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Savannah Nguyen
                         </Text>
@@ -1077,9 +1041,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -1090,9 +1053,8 @@ const MarketPage = () => {
                               alt="sort Seven"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               1,54 ETH
                             </Text>
@@ -1142,16 +1104,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Diehard BATTERY-SILVER
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Ralph Edwards
                         </Text>
@@ -1159,9 +1120,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -1172,9 +1132,8 @@ const MarketPage = () => {
                               alt="sort Eight"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               2,78 ETH
                             </Text>
@@ -1224,16 +1183,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Bosch Spark Plug
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Guy Hawkins
                         </Text>
@@ -1241,9 +1199,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -1254,9 +1211,8 @@ const MarketPage = () => {
                               alt="sort Nine"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               8,99 ETH
                             </Text>
@@ -1306,16 +1262,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col items-start justify-start pr-0.5 pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Valvoline Engine Oil
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Albert Flores
                         </Text>
@@ -1323,9 +1278,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -1336,9 +1290,8 @@ const MarketPage = () => {
                               alt="sort Ten"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               51,23 ETH
                             </Text>
@@ -1388,16 +1341,15 @@ const MarketPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[94%] md:w-full">
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Fram Oil Filter
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Jerome Bell
                         </Text>
@@ -1405,9 +1357,8 @@ const MarketPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -1418,9 +1369,8 @@ const MarketPage = () => {
                               alt="sort Eleven"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               25,00 ETH
                             </Text>

@@ -40,16 +40,15 @@ const SettingsPage = () => {
               />
               <div className="flex flex-col items-start justify-start">
                 <Text
-                  className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-semibold text-black_900 tracking-[0.18px]"
+                  as="h6"
+                  size="xl"
                 >
                   Kevin Cranel
                 </Text>
                 <Text
-                  className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                  size="md"
                 >
                   @kecrane
                 </Text>
@@ -58,9 +57,8 @@ const SettingsPage = () => {
             <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start px-[18px] w-full">
               <div className="flex flex-col gap-[13px] justify-start w-full">
                 <Text
-                  className="font-medium ml-4 md:ml-[0] text-black_900 text-left tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="ml-4 md:ml-[0] text-black_900 tracking-[0.12px]"
+                  size="s"
                 >
                   GENERAL
                 </Text>
@@ -76,9 +74,8 @@ const SettingsPage = () => {
                         alt="clock"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Dashboard
                       </Text>
@@ -95,9 +92,8 @@ const SettingsPage = () => {
                         alt="car"
                       />
                       <Text
-                        className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Message
                       </Text>
@@ -111,9 +107,8 @@ const SettingsPage = () => {
                         alt="settings"
                       />
                       <Text
-                        className="font-medium mt-0.5 text-gray_900 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="mt-0.5 text-gray_900 tracking-[0.18px]"
+                        size="xl"
                       >
                         Settings
                       </Text>
@@ -123,9 +118,8 @@ const SettingsPage = () => {
               </div>
               <div className="flex flex-col gap-[13px] justify-start w-full">
                 <Text
-                  className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                  size="s"
                 >
                   MARKETPLACE
                 </Text>
@@ -141,9 +135,8 @@ const SettingsPage = () => {
                         alt="user"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Market
                       </Text>
@@ -160,9 +153,8 @@ const SettingsPage = () => {
                         alt="judge"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Active Bid
                       </Text>
@@ -179,9 +171,8 @@ const SettingsPage = () => {
                         alt="clock One"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Saved
                       </Text>
@@ -191,9 +182,8 @@ const SettingsPage = () => {
               </div>
               <div className="flex flex-col gap-[13px] justify-start w-full">
                 <Text
-                  className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                  as="h1"
-                  variant="h1"
+                  className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                  size="s"
                 >
                   MY PROFILE
                 </Text>
@@ -209,9 +199,8 @@ const SettingsPage = () => {
                         alt="user One"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Collection
                       </Text>
@@ -228,9 +217,8 @@ const SettingsPage = () => {
                         alt="computer"
                       />
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         Wallet
                       </Text>
@@ -247,9 +235,8 @@ const SettingsPage = () => {
                         alt="clock Two"
                       />
                       <Text
-                        className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                        as="h1"
-                        variant="h1"
+                        className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                        size="xl"
                       >
                         History
                       </Text>
@@ -273,17 +260,16 @@ const SettingsPage = () => {
                   />
                 </Button>
                 <Text
-                  className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                  as="h6"
+                  size="xl"
                 >
                   Help Center
                 </Text>
                 <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                   <Text
-                    className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                    size="md"
                   >
                     <>
                       Having trouble in Enefti?
@@ -310,7 +296,7 @@ const SettingsPage = () => {
               value={searchinputvalue}
               onChange={(e) => setSearchinputvalue(e)}
               wrapClassName="flex md:flex-1 md:mt-0 my-0.5 w-[45%] md:w-full"
-              className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+              className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
               name="SearchInput"
               placeholder="Search items, collections, and users"
               prefix={
@@ -385,27 +371,15 @@ const SettingsPage = () => {
           <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start w-[95%] md:w-full">
             <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
               <div className="flex flex-col gap-2.5 items-start justify-start pt-[3px]">
-                <Text
-                  className="font-semibold text-black_900 text-left"
-                  as="h1"
-                  variant="h1"
-                >
+                <Text className="text-black_900" as="h4" size="3xl">
                   General Settings
                 </Text>
-                <Text
-                  className="font-medium text-gray_500 text-left tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
-                >
+                <Text className="text-gray_500 tracking-[0.14px]" size="md">
                   Update your photo and personal details here.
                 </Text>
               </div>
               <div className="flex md:flex-1 sm:flex-col flex-row gap-[18px] items-center justify-between w-[43%] md:w-full">
-                <Text
-                  className="font-medium text-black_900 text-left tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
-                >
+                <Text className="text-black_900 tracking-[0.14px]" size="md">
                   Every changes automaticly saved
                 </Text>
                 <div className="flex flex-row gap-3 items-center justify-between w-1/2 sm:w-full">
@@ -432,9 +406,8 @@ const SettingsPage = () => {
               <div className="flex md:flex-1 flex-col gap-[30px] items-center justify-start w-[66%] md:w-full">
                 <div className="bg-white_A700 flex flex-col items-start justify-end outline outline-[0.5px] outline-gray_100 py-6 rounded-[15px] shadow-bs1 w-full">
                   <Text
-                    className="font-medium ml-6 md:ml-[0] text-black_900 text-left tracking-[0.18px]"
-                    as="h1"
-                    variant="h1"
+                    className="ml-6 md:ml-[0] text-black_900 tracking-[0.18px]"
+                    size="xl"
                   >
                     Personal Information
                   </Text>
@@ -445,20 +418,19 @@ const SettingsPage = () => {
                         <div className="flex md:flex-col flex-row gap-6 items-center justify-between w-full">
                           <div className="flex md:flex-1 flex-col gap-3 items-start justify-start w-[49%] md:w-full">
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.16px]"
-                              as="h1"
-                              variant="h1"
+                              className="!font-medium text-black_900 tracking-[0.16px]"
+                              size="lg"
                             >
-                              <span className="text-black_900 text-base font-urbanist">
+                              <span className="text-black_900 font-urbanist text-left text-base">
                                 First Name
                               </span>
-                              <span className="text-red_600 text-base font-urbanist">
+                              <span className="text-red_600 font-urbanist text-left text-base">
                                 *
                               </span>
                             </Text>
                             <Input
                               wrapClassName="flex w-full"
-                              className="font-normal not-italic p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
+                              className="font-normal p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
                               name="SearchInput One"
                               placeholder="Kevin"
                               prefix={
@@ -475,20 +447,19 @@ const SettingsPage = () => {
                           </div>
                           <div className="flex md:flex-1 flex-col gap-3 items-start justify-start w-[49%] md:w-full">
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.16px]"
-                              as="h1"
-                              variant="h1"
+                              className="!font-medium text-black_900 tracking-[0.16px]"
+                              size="lg"
                             >
-                              <span className="text-black_900 text-base font-urbanist">
+                              <span className="text-black_900 font-urbanist text-left text-base">
                                 Last Name
                               </span>
-                              <span className="text-red_600 text-base font-urbanist">
+                              <span className="text-red_600 font-urbanist text-left text-base">
                                 *
                               </span>
                             </Text>
                             <Input
                               wrapClassName="w-full"
-                              className="font-normal not-italic p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
+                              className="font-normal p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
                               name="SearchInput Two"
                               placeholder="Cranel"
                               shape="RoundedBorder8"
@@ -499,20 +470,19 @@ const SettingsPage = () => {
                         </div>
                         <div className="flex flex-col gap-3 items-start justify-start w-full">
                           <Text
-                            className="font-medium text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-medium text-black_900 tracking-[0.16px]"
+                            size="lg"
                           >
-                            <span className="text-black_900 text-base font-urbanist">
+                            <span className="text-black_900 font-urbanist text-left text-base">
                               Email Address
                             </span>
-                            <span className="text-red_600 text-base font-urbanist">
+                            <span className="text-red_600 font-urbanist text-left text-base">
                               *
                             </span>
                           </Text>
                           <Input
                             wrapClassName="flex w-full"
-                            className="font-normal not-italic p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
+                            className="font-normal p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
                             type="email"
                             name="email"
                             placeholder="hello.kevincranel@workmail.com"
@@ -537,9 +507,8 @@ const SettingsPage = () => {
                         </div>
                         <div className="flex flex-col gap-3 items-start justify-start w-full">
                           <Text
-                            className="font-medium text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-medium text-black_900 tracking-[0.16px]"
+                            size="lg"
                           >
                             Username
                           </Text>
@@ -568,14 +537,13 @@ const SettingsPage = () => {
                         </div>
                         <div className="flex flex-col gap-[11px] items-start justify-start pt-0.5 w-full">
                           <Text
-                            className="font-medium text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-medium text-black_900 tracking-[0.16px]"
+                            size="lg"
                           >
                             Biography
                           </Text>
                           <TextArea
-                            className="font-normal not-italic placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
+                            className="font-normal placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
                             name="searchinput Four"
                             placeholder="Dedicated to create amazing for art exhibition information please check link below:"
                             shape="RoundedBorder8"
@@ -586,15 +554,14 @@ const SettingsPage = () => {
                       </div>
                       <div className="flex flex-col gap-3 items-start justify-start w-full">
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-medium text-black_900 tracking-[0.16px]"
+                          size="lg"
                         >
                           Website
                         </Text>
                         <Input
                           wrapClassName="flex w-full"
-                          className="font-normal not-italic p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
+                          className="font-normal p-0 placeholder:text-black_900 text-black_900 text-left text-sm tracking-[0.14px] w-full"
                           name="weburl"
                           placeholder="weloveart.com/kevincranel"
                           prefix={
@@ -615,9 +582,8 @@ const SettingsPage = () => {
                 <div className="bg-white_A700 flex flex-col gap-8 items-center justify-start outline outline-[0.5px] outline-gray_100 py-[26px] rounded-[15px] shadow-bs1 w-full">
                   <div className="flex flex-col gap-[22px] justify-start w-full">
                     <Text
-                      className="font-medium ml-6 md:ml-[0] text-black_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="ml-6 md:ml-[0] text-black_900 tracking-[0.18px]"
+                      size="xl"
                     >
                       Notification Settings
                     </Text>
@@ -630,16 +596,14 @@ const SettingsPage = () => {
                     <div className="flex flex-row sm:gap-10 items-center justify-between w-full">
                       <div className="flex flex-col gap-[11px] items-start justify-start">
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-medium text-black_900 tracking-[0.16px]"
+                          size="lg"
                         >
                           Item Sold
                         </Text>
                         <Text
-                          className="font-normal not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           When someone purchased one of your items
                         </Text>
@@ -654,16 +618,14 @@ const SettingsPage = () => {
                     <div className="flex flex-row sm:gap-10 items-center justify-between w-full">
                       <div className="flex flex-col gap-[9px] items-start justify-start">
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-medium text-black_900 tracking-[0.16px]"
+                          size="lg"
                         >
                           Auction Expirates
                         </Text>
                         <Text
-                          className="font-normal not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           When a timed auction you created ends
                         </Text>
@@ -678,16 +640,14 @@ const SettingsPage = () => {
                     <div className="flex sm:flex-col flex-row sm:gap-10 items-center justify-between w-full">
                       <div className="flex flex-col gap-[9px] items-start justify-start">
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-medium text-black_900 tracking-[0.16px]"
+                          size="lg"
                         >
                           Owned Item Updates
                         </Text>
                         <Text
-                          className="font-normal not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           When a significant update occurs for one of the items
                           you have purchased on Enefthy
@@ -703,16 +663,14 @@ const SettingsPage = () => {
                     <div className="flex flex-row sm:gap-10 items-center justify-between w-full">
                       <div className="flex flex-col gap-[11px] items-start justify-start">
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-medium text-black_900 tracking-[0.16px]"
+                          size="lg"
                         >
                           Successful Purchase
                         </Text>
                         <Text
-                          className="font-normal not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           When you successfully buy an item
                         </Text>
@@ -730,9 +688,8 @@ const SettingsPage = () => {
                 <div className="bg-white_A700 flex flex-col gap-8 items-center justify-end outline outline-[0.5px] outline-gray_100 py-6 rounded-[15px] shadow-bs1 w-full">
                   <div className="flex flex-col gap-6 justify-start w-full">
                     <Text
-                      className="font-medium ml-6 md:ml-[0] text-black_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="ml-6 md:ml-[0] text-black_900 tracking-[0.18px]"
+                      size="xl"
                     >
                       Your Photo
                     </Text>
@@ -747,24 +704,21 @@ const SettingsPage = () => {
                       />
                       <div className="flex flex-col gap-[9px] items-start justify-start pt-0.5 w-[58%]">
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-medium text-black_900 tracking-[0.16px]"
+                          size="lg"
                         >
                           Edit your photo
                         </Text>
                         <div className="flex flex-row font-outfit gap-2.5 items-start justify-start w-[92%] md:w-full">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal text-gray_500 tracking-[0.14px]"
+                            size="md"
                           >
                             Delete
                           </Text>
                           <Text
-                            className="font-normal not-italic text-left text-red_600 tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal text-red_600 tracking-[0.14px]"
+                            size="md"
                           >
                             Update
                           </Text>
@@ -786,16 +740,14 @@ const SettingsPage = () => {
                       </Button>
                       <div className="flex flex-col gap-[9px] items-center justify-start">
                         <Text
-                          className="font-medium text-center text-gray_900 tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-center text-gray_900 tracking-[0.14px]"
+                          size="md"
                         >
                           Click to upload or drag and drop
                         </Text>
                         <Text
-                          className="font-medium leading-[130.00%] text-center text-gray_500 tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="leading-[130.00%] text-center text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           <>
                             PNG, JPG or Gif
@@ -810,9 +762,8 @@ const SettingsPage = () => {
                 <div className="bg-white_A700 flex flex-col gap-[31px] items-center justify-end outline outline-[0.5px] outline-gray_100 py-6 rounded-[15px] shadow-bs1 w-full">
                   <div className="flex flex-col gap-6 justify-start w-full">
                     <Text
-                      className="font-medium ml-6 md:ml-[0] text-black_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="ml-6 md:ml-[0] text-black_900 tracking-[0.18px]"
+                      size="xl"
                     >
                       Social Linked
                     </Text>
@@ -836,16 +787,14 @@ const SettingsPage = () => {
                     </div>
                     <div className="flex flex-col gap-[9px] items-start justify-start">
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.16px]"
-                        as="h1"
-                        variant="h1"
+                        className="!font-medium text-black_900 tracking-[0.16px]"
+                        size="lg"
                       >
                         Edit your photo
                       </Text>
                       <Text
-                        className="font-normal leading-[180.00%] not-italic text-gray_500 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="!font-normal leading-[180.00%] text-gray_500 tracking-[0.14px]"
+                        size="md"
                       >
                         <>
                           Use Google to sign in to your account.

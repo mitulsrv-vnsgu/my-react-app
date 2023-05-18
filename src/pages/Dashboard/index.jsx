@@ -24,16 +24,15 @@ const DashboardPage = () => {
             />
             <div className="flex flex-col items-start justify-start">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold text-black_900 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Kevin Cranel
               </Text>
               <Text
-                className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                as="h1"
-                variant="h1"
+                className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                size="md"
               >
                 @kecrane
               </Text>
@@ -42,9 +41,8 @@ const DashboardPage = () => {
           <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start mt-[50px] px-[18px] w-full">
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-black_900 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-black_900 tracking-[0.12px]"
+                size="s"
               >
                 GENERAL
               </Text>
@@ -56,11 +54,7 @@ const DashboardPage = () => {
                       className="h-6 w-6"
                       alt="eye"
                     />
-                    <Text
-                      className="font-medium text-gray_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_900 tracking-[0.18px]" size="xl">
                       Dashboard
                     </Text>
                   </div>
@@ -73,9 +67,8 @@ const DashboardPage = () => {
                       alt="car"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Message
                     </Text>
@@ -92,9 +85,8 @@ const DashboardPage = () => {
                       alt="settings"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Settings
                     </Text>
@@ -104,9 +96,8 @@ const DashboardPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MARKETPLACE
               </Text>
@@ -121,11 +112,7 @@ const DashboardPage = () => {
                       className="h-6 w-6"
                       alt="user"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Market
                     </Text>
                   </div>
@@ -137,11 +124,7 @@ const DashboardPage = () => {
                       className="h-6 w-6"
                       alt="judge"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Active Bid
                     </Text>
                   </div>
@@ -156,11 +139,7 @@ const DashboardPage = () => {
                       className="h-6 w-6"
                       alt="clock"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Saved
                     </Text>
                   </div>
@@ -169,9 +148,8 @@ const DashboardPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MY PROFILE
               </Text>
@@ -183,11 +161,7 @@ const DashboardPage = () => {
                       className="h-6 w-6"
                       alt="user One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Collection
                     </Text>
                   </div>
@@ -202,11 +176,7 @@ const DashboardPage = () => {
                       className="h-6 w-6"
                       alt="computer"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Wallet
                     </Text>
                   </div>
@@ -222,9 +192,8 @@ const DashboardPage = () => {
                       alt="clock One"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       History
                     </Text>
@@ -248,17 +217,16 @@ const DashboardPage = () => {
                 />
               </Button>
               <Text
-                className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Help Center
               </Text>
               <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                 <Text
-                  className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                  size="md"
                 >
                   <>
                     Having trouble in Enefti?
@@ -284,7 +252,7 @@ const DashboardPage = () => {
               value={searchinputvalue}
               onChange={(e) => setSearchinputvalue(e)}
               wrapClassName="flex md:flex-1 md:mt-0 my-0.5 w-[45%] md:w-full"
-              className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+              className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
               name="SearchInput"
               placeholder="Search items, collections, and users"
               prefix={
@@ -365,16 +333,15 @@ const DashboardPage = () => {
                     <div className="flex flex-col gap-[33px] items-start justify-start mb-[19px] mt-[23px] w-[76%] md:w-full">
                       <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                         <Text
-                          className="font-semibold text-left text-white_A700 tracking-[0.32px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-white_A700 tracking-[0.32px]"
+                          as="h2"
+                          size="4xl"
                         >
                           Create and Sell Extraordinary NFTs
                         </Text>
                         <Text
-                          className="font-medium text-left text-white_A700_a2 tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-white_A700_a2 tracking-[0.14px]"
+                          size="md"
                         >
                           The world’s first and largest digital marketplace for
                           crypto NFTs
@@ -404,17 +371,12 @@ const DashboardPage = () => {
               </div>
               <div className="flex flex-col gap-[18px] items-center justify-start mt-[43px] w-full">
                 <div className="flex flex-row sm:gap-10 items-start justify-between w-full">
-                  <Text
-                    className="font-semibold text-black_900 text-left"
-                    as="h1"
-                    variant="h1"
-                  >
+                  <Text className="text-black_900" as="h4" size="3xl">
                     Trending Auction
                   </Text>
                   <Text
-                    className="font-medium mt-0.5 text-gray_900 text-left tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="mt-0.5 text-gray_900 tracking-[0.14px]"
+                    size="md"
                   >
                     View All
                   </Text>
@@ -455,16 +417,15 @@ const DashboardPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[93%] md:w-full">
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           The Unfortable Facer
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Bane Riccardo
                         </Text>
@@ -472,9 +433,8 @@ const DashboardPage = () => {
                       <div className="flex flex-row gap-9 items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -485,9 +445,8 @@ const DashboardPage = () => {
                               alt="sort"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               18,99 ETH
                             </Text>
@@ -536,16 +495,15 @@ const DashboardPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[93%] md:w-full">
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Mad Ballot Holder
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Angelina Cruzz
                         </Text>
@@ -553,9 +511,8 @@ const DashboardPage = () => {
                       <div className="flex flex-row gap-[38px] items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -566,9 +523,8 @@ const DashboardPage = () => {
                               alt="sort One"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               4,32 ETH
                             </Text>
@@ -617,16 +573,15 @@ const DashboardPage = () => {
                     <div className="flex flex-col gap-[17px] items-start justify-start mb-3 w-[93%] md:w-full">
                       <div className="flex flex-col items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Pile of Many Plates
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           By Ralphi Arness
                         </Text>
@@ -634,9 +589,8 @@ const DashboardPage = () => {
                       <div className="flex flex-row gap-[38px] items-center justify-between w-full">
                         <div className="flex flex-col font-outfit items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-gray_500 text-left tracking-[0.10px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.10px]"
+                            size="xs"
                           >
                             Current Bid
                           </Text>
@@ -647,9 +601,8 @@ const DashboardPage = () => {
                               alt="sort Two"
                             />
                             <Text
-                              className="font-medium text-black_900 text-left tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="text-black_900 tracking-[0.14px]"
+                              size="md"
                             >
                               4,32 ETH
                             </Text>
@@ -670,65 +623,48 @@ const DashboardPage = () => {
               </div>
               <div className="flex flex-col gap-[18px] items-center justify-start mt-[33px] w-full">
                 <div className="flex flex-row sm:gap-10 items-start justify-between w-full">
-                  <Text
-                    className="font-semibold text-black_900 text-left"
-                    as="h1"
-                    variant="h1"
-                  >
+                  <Text className="text-black_900" as="h4" size="3xl">
                     Top Collection
                   </Text>
                   <div className="flex flex-col items-center justify-start mt-[3px]">
-                    <Text
-                      className="font-medium text-gray_900 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_900 tracking-[0.14px]" size="md">
                       View All
                     </Text>
                   </div>
                 </div>
                 <div className="flex flex-col gap-5 items-center justify-start w-full">
                   <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between w-full">
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.12px]" size="s">
                       Collection
                     </Text>
                     <div className="flex sm:flex-1 flex-row items-start justify-between w-[66%] sm:w-full">
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.12px]"
+                        size="s"
                       >
                         Volume
                       </Text>
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.12px]"
+                        size="s"
                       >
                         24h %
                       </Text>
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.12px]"
+                        size="s"
                       >
                         Floor Price
                       </Text>
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.12px]"
+                        size="s"
                       >
                         Owners
                       </Text>
                       <Text
-                        className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-gray_500 tracking-[0.12px]"
+                        size="s"
                       >
                         Items
                       </Text>
@@ -747,16 +683,15 @@ const DashboardPage = () => {
                         />
                         <div className="flex flex-col gap-1.5 items-start justify-start">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Doodle Lucu
                           </Text>
                           <Text
-                            className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             By Doodles
                           </Text>
@@ -770,17 +705,15 @@ const DashboardPage = () => {
                             alt="sort Three"
                           />
                           <Text
-                            className="font-medium text-black_900 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.14px]"
+                            size="md"
                           >
                             14,32
                           </Text>
                         </div>
                         <Text
-                          className="font-medium font-outfit sm:ml-[0] ml-[60px] text-green_600 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="font-outfit sm:ml-[0] ml-[60px] text-green_600 tracking-[0.14px]"
+                          size="md"
                         >
                           + 20,4%
                         </Text>
@@ -791,24 +724,21 @@ const DashboardPage = () => {
                             alt="sort One"
                           />
                           <Text
-                            className="font-medium ml-1 text-black_900 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="ml-1 text-black_900 tracking-[0.14px]"
+                            size="md"
                           >
                             2,3
                           </Text>
                         </div>
                         <Text
-                          className="font-medium font-urbanist sm:ml-[0] ml-[91px] text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="font-urbanist sm:ml-[0] ml-[91px] text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           2,2K
                         </Text>
                         <Text
-                          className="font-medium font-urbanist sm:ml-[0] ml-[85px] text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="font-urbanist sm:ml-[0] ml-[85px] text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           18
                         </Text>
@@ -824,16 +754,15 @@ const DashboardPage = () => {
                         />
                         <div className="flex flex-col gap-1.5 items-start justify-start">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Kimawi Genesis
                           </Text>
                           <Text
-                            className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             By Kimawi - Japan
                           </Text>
@@ -847,17 +776,15 @@ const DashboardPage = () => {
                             alt="sort Four"
                           />
                           <Text
-                            className="font-medium text-black_900 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.14px]"
+                            size="md"
                           >
                             6,11
                           </Text>
                         </div>
                         <Text
-                          className="font-medium font-outfit text-left text-red_600 tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="font-outfit text-red_600 tracking-[0.14px]"
+                          size="md"
                         >
                           - 18,2%
                         </Text>
@@ -868,24 +795,21 @@ const DashboardPage = () => {
                             alt="sort One One"
                           />
                           <Text
-                            className="font-medium ml-1 text-black_900 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="ml-1 text-black_900 tracking-[0.14px]"
+                            size="md"
                           >
                             12,52
                           </Text>
                         </div>
                         <Text
-                          className="font-medium font-urbanist text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="font-urbanist text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           1,9K
                         </Text>
                         <Text
-                          className="font-medium font-urbanist text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="font-urbanist text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           21
                         </Text>
@@ -899,16 +823,15 @@ const DashboardPage = () => {
               <div className="flex flex-col gap-5 items-center justify-start mt-3.5 w-full">
                 <div className="flex flex-row items-start justify-between w-full">
                   <Text
-                    className="font-semibold text-black_900 text-left"
-                    as="h1"
-                    variant="h1"
+                    className="!font-semibold text-black_900"
+                    as="h6"
+                    size="xl"
                   >
                     Featured Creators
                   </Text>
                   <Text
-                    className="font-medium text-gray_900 text-right tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="text-gray_900 text-right tracking-[0.14px]"
+                    size="md"
                   >
                     See All
                   </Text>
@@ -931,9 +854,8 @@ const DashboardPage = () => {
                       <div className="flex flex-col font-urbanist items-start justify-start">
                         <div className="flex flex-row items-center justify-evenly w-full">
                           <Text
-                            className="font-semibold text-black_900 text-center tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-semibold text-black_900 text-center tracking-[0.14px]"
+                            size="md"
                           >
                             Murakami Flowers
                           </Text>
@@ -944,15 +866,14 @@ const DashboardPage = () => {
                           />
                         </div>
                         <Text
-                          className="font-medium mt-1 text-center text-gray_500 tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-center text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           @mftmkkus
                         </Text>
                       </div>
                       <Button
-                        className="cursor-pointer font-normal font-outfit min-w-[64px] my-[5px] not-italic text-center text-white_A700 text-xs tracking-[0.12px]"
+                        className="cursor-pointer font-normal font-outfit min-w-[64px] my-[5px] text-center text-white_A700 text-xs tracking-[0.12px]"
                         shape="CircleBorder14"
                         size="sm"
                         variant="Outline_1"
@@ -962,9 +883,8 @@ const DashboardPage = () => {
                     </div>
                     <Line className="bg-gray_100 h-px w-full" />
                     <Text
-                      className="font-normal leading-[180.00%] not-italic text-gray_500 text-left tracking-[0.12px] w-full"
-                      as="h1"
-                      variant="h1"
+                      className="!font-normal leading-[180.00%] text-gray_500 tracking-[0.12px] w-full"
+                      size="s"
                     >
                       Murakami.Flowers is a work in which artist Takashi
                       Murakami’s representative artwork.....
@@ -975,16 +895,15 @@ const DashboardPage = () => {
               <div className="flex flex-col gap-[18px] items-center justify-start mb-[15px] w-full">
                 <div className="flex flex-row items-start justify-between w-full">
                   <Text
-                    className="font-semibold text-black_900 text-left"
-                    as="h1"
-                    variant="h1"
+                    className="!font-semibold text-black_900"
+                    as="h6"
+                    size="xl"
                   >
                     Recent Activity
                   </Text>
                   <Text
-                    className="font-medium text-gray_900 text-right tracking-[0.14px]"
-                    as="h1"
-                    variant="h1"
+                    className="text-gray_900 text-right tracking-[0.14px]"
+                    size="md"
                   >
                     See All
                   </Text>
@@ -1002,16 +921,15 @@ const DashboardPage = () => {
                       />
                       <div className="flex flex-col gap-1.5 items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Uzachi #4390
                         </Text>
                         <Text
-                          className="font-medium text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           From Ragnarok Meta
                         </Text>
@@ -1024,9 +942,8 @@ const DashboardPage = () => {
                         alt="sort Five"
                       />
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.14px]"
+                        size="md"
                       >
                         2.15 ETH
                       </Text>
@@ -1042,16 +959,15 @@ const DashboardPage = () => {
                       />
                       <div className="flex flex-col items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Doodles #3486
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           From Doodles
                         </Text>
@@ -1064,9 +980,8 @@ const DashboardPage = () => {
                         alt="sort Six"
                       />
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.14px]"
+                        size="md"
                       >
                         4.42 ETH
                       </Text>
@@ -1082,16 +997,15 @@ const DashboardPage = () => {
                       />
                       <div className="flex flex-col items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Murakami #2766
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           From Murakami
                         </Text>
@@ -1104,9 +1018,8 @@ const DashboardPage = () => {
                         alt="sort Seven"
                       />
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.14px]"
+                        size="md"
                       >
                         1.08 ETH
                       </Text>
@@ -1122,16 +1035,15 @@ const DashboardPage = () => {
                       />
                       <div className="flex flex-col items-start justify-start">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Doodles #2761
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           From Murakami
                         </Text>
@@ -1144,9 +1056,8 @@ const DashboardPage = () => {
                         alt="sort Eight"
                       />
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.14px]"
+                        size="md"
                       >
                         4.4 ETH
                       </Text>
@@ -1162,16 +1073,15 @@ const DashboardPage = () => {
                       />
                       <div className="flex flex-col items-start justify-end">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Peachy Puch#22
                         </Text>
                         <Text
-                          className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-[3px] text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           From Mindblowonstudio
                         </Text>
@@ -1184,9 +1094,8 @@ const DashboardPage = () => {
                         alt="sort Nine"
                       />
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.14px]"
+                        size="md"
                       >
                         5.62 ETH
                       </Text>
@@ -1202,16 +1111,15 @@ const DashboardPage = () => {
                       />
                       <div className="flex flex-col items-center justify-start pt-0.5">
                         <Text
-                          className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.16px]"
+                          as="h6"
+                          size="lg"
                         >
                           Gemmy #3723
                         </Text>
                         <Text
-                          className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                          as="h1"
-                          variant="h1"
+                          className="mt-1 text-gray_500 tracking-[0.12px]"
+                          size="s"
                         >
                           From GemmySolana
                         </Text>
@@ -1224,9 +1132,8 @@ const DashboardPage = () => {
                         alt="sort Ten"
                       />
                       <Text
-                        className="font-medium text-black_900 text-left tracking-[0.14px]"
-                        as="h1"
-                        variant="h1"
+                        className="text-black_900 tracking-[0.14px]"
+                        size="md"
                       >
                         5.32 ETH
                       </Text>

@@ -105,16 +105,15 @@ const MyProfileHistoryPage = () => {
             />
             <div className="flex flex-col items-start justify-end mt-2.5">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                as="p"
-                variant="h1"
+                className="text-black_900 tracking-[0.16px]"
+                as="h6"
+                size="lg"
               >
                 Peachy Puch#22
               </Text>
               <Text
-                className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.12px]"
-                as="p"
-                variant="h1"
+                className="mt-[3px] text-gray_500 tracking-[0.12px]"
+                size="s"
               >
                 {info?.getValue()}
               </Text>
@@ -123,9 +122,8 @@ const MyProfileHistoryPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[322px] pb-[25px] sm:pl-5 pl-6 text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[322px] pb-[25px] sm:pl-5 pl-6 text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Item List
           </Text>
@@ -134,18 +132,16 @@ const MyProfileHistoryPage = () => {
       table1ColumnHelper.accessor("status", {
         cell: (info) => (
           <Text
-            className="font-medium pb-[25px] pt-[34px] text-black_900 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="pb-[25px] pt-[34px] text-black_900 tracking-[0.14px]"
+            size="md"
           >
             {info?.getValue()}
           </Text>
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[141px] pb-[25px] text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[141px] pb-[25px] text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Status
           </Text>
@@ -160,9 +156,8 @@ const MyProfileHistoryPage = () => {
               alt="sort"
             />
             <Text
-              className="font-medium mr-[66px] mt-[9px] text-black_900 text-left tracking-[0.14px]"
-              as="p"
-              variant="h1"
+              className="mr-[66px] mt-[9px] text-black_900 tracking-[0.14px]"
+              size="md"
             >
               {info?.getValue()}
             </Text>
@@ -170,9 +165,8 @@ const MyProfileHistoryPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[170px] pb-6 pt-0.5 text-center text-gray_500 tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[170px] pb-6 pt-0.5 text-center text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Open Price
           </Text>
@@ -187,9 +181,8 @@ const MyProfileHistoryPage = () => {
               alt="sort One"
             />
             <Text
-              className="font-medium mb-6 mt-[34px] text-black_900 text-left tracking-[0.14px]"
-              as="p"
-              variant="h1"
+              className="mb-6 mt-[34px] text-black_900 tracking-[0.14px]"
+              size="md"
             >
               {info?.getValue()}
             </Text>
@@ -197,9 +190,8 @@ const MyProfileHistoryPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[166px] pb-[26px] text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[166px] pb-[26px] text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Your Offer
           </Text>
@@ -214,9 +206,8 @@ const MyProfileHistoryPage = () => {
               alt="sort Two"
             />
             <Text
-              className="font-medium mb-6 mt-[34px] text-black_900 text-left tracking-[0.14px]"
-              as="p"
-              variant="h1"
+              className="mb-6 mt-[34px] text-black_900 tracking-[0.14px]"
+              size="md"
             >
               {info?.getValue()}
             </Text>
@@ -224,9 +215,8 @@ const MyProfileHistoryPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[174px] pb-[26px] text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[174px] pb-[26px] text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Recent Offer
           </Text>
@@ -235,18 +225,16 @@ const MyProfileHistoryPage = () => {
       table1ColumnHelper.accessor("timeLeft", {
         cell: (info) => (
           <Text
-            className="font-medium pb-[25px] pt-[34px] text-black_900 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="pb-[25px] pt-[34px] text-black_900 tracking-[0.14px]"
+            size="md"
           >
             {info?.getValue()}
           </Text>
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[97px] pb-[26px] text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[97px] pb-[26px] text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Time Left
           </Text>
@@ -269,16 +257,15 @@ const MyProfileHistoryPage = () => {
             />
             <div className="flex flex-col items-start justify-start">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold text-black_900 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Kevin Cranel
               </Text>
               <Text
-                className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                as="h1"
-                variant="h1"
+                className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                size="md"
               >
                 @kecrane
               </Text>
@@ -287,9 +274,8 @@ const MyProfileHistoryPage = () => {
           <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start mt-[50px] px-[18px] w-full">
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 GENERAL
               </Text>
@@ -301,11 +287,7 @@ const MyProfileHistoryPage = () => {
                       className="h-6 w-6"
                       alt="clock"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Dashboard
                     </Text>
                   </div>
@@ -321,9 +303,8 @@ const MyProfileHistoryPage = () => {
                       alt="car"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Message
                     </Text>
@@ -340,9 +321,8 @@ const MyProfileHistoryPage = () => {
                       alt="settings"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Settings
                     </Text>
@@ -352,9 +332,8 @@ const MyProfileHistoryPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MARKETPLACE
               </Text>
@@ -369,11 +348,7 @@ const MyProfileHistoryPage = () => {
                       className="h-6 w-6"
                       alt="user"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Market
                     </Text>
                   </div>
@@ -388,11 +363,7 @@ const MyProfileHistoryPage = () => {
                       className="h-6 w-6"
                       alt="judge"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Active Bid
                     </Text>
                   </div>
@@ -407,11 +378,7 @@ const MyProfileHistoryPage = () => {
                       className="h-6 w-6"
                       alt="clock One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Saved
                     </Text>
                   </div>
@@ -420,9 +387,8 @@ const MyProfileHistoryPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MY PROFILE
               </Text>
@@ -437,11 +403,7 @@ const MyProfileHistoryPage = () => {
                       className="h-6 w-6"
                       alt="user One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Collection
                     </Text>
                   </div>
@@ -456,11 +418,7 @@ const MyProfileHistoryPage = () => {
                       className="h-6 w-6"
                       alt="computer"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Wallet
                     </Text>
                   </div>
@@ -473,9 +431,8 @@ const MyProfileHistoryPage = () => {
                       alt="clock Two"
                     />
                     <Text
-                      className="font-medium mt-0.5 text-gray_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-0.5 text-gray_900 tracking-[0.18px]"
+                      size="xl"
                     >
                       History
                     </Text>
@@ -499,17 +456,16 @@ const MyProfileHistoryPage = () => {
                 />
               </Button>
               <Text
-                className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Help Center
               </Text>
               <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                 <Text
-                  className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                  size="md"
                 >
                   <>
                     Having trouble in Enefti?
@@ -535,7 +491,7 @@ const MyProfileHistoryPage = () => {
               value={searchinputvalue}
               onChange={(e) => setSearchinputvalue(e)}
               wrapClassName="flex md:flex-1 md:mt-0 my-0.5 w-[45%] md:w-full"
-              className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+              className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
               name="SearchInput"
               placeholder="Search items, collections, and users"
               prefix={
@@ -609,9 +565,9 @@ const MyProfileHistoryPage = () => {
           </div>
           <div className="flex flex-col font-urbanist items-start justify-start w-[95%] md:w-full">
             <Text
-              className="font-semibold text-black_900 text-left tracking-[0.34px]"
-              as="h1"
-              variant="h1"
+              className="text-black_900 tracking-[0.34px]"
+              as="h2"
+              size="5xl"
             >
               History
             </Text>

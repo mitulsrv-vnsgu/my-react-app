@@ -77,16 +77,15 @@ const MyProfileWalletPage = () => {
             />
             <div className="flex flex-col items-start justify-end mt-2.5">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                as="p"
-                variant="h1"
+                className="text-black_900 tracking-[0.16px]"
+                as="h6"
+                size="lg"
               >
                 Peachy Puch#22
               </Text>
               <Text
-                className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.12px]"
-                as="p"
-                variant="h1"
+                className="mt-[3px] text-gray_500 tracking-[0.12px]"
+                size="s"
               >
                 {info?.getValue()}
               </Text>
@@ -95,9 +94,8 @@ const MyProfileWalletPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[266px] pb-[25px] sm:pl-5 pl-6 text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[266px] pb-[25px] sm:pl-5 pl-6 text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Item List
           </Text>
@@ -106,18 +104,16 @@ const MyProfileWalletPage = () => {
       tableColumnHelper.accessor("status", {
         cell: (info) => (
           <Text
-            className="font-medium pb-[25px] pt-[34px] text-black_900 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="pb-[25px] pt-[34px] text-black_900 tracking-[0.14px]"
+            size="md"
           >
             {info?.getValue()}
           </Text>
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[111px] pb-[25px] text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[111px] pb-[25px] text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Status
           </Text>
@@ -132,9 +128,8 @@ const MyProfileWalletPage = () => {
               alt="sort"
             />
             <Text
-              className="font-medium mr-[37px] mt-[9px] text-black_900 text-left tracking-[0.14px]"
-              as="p"
-              variant="h1"
+              className="mr-[37px] mt-[9px] text-black_900 tracking-[0.14px]"
+              size="md"
             >
               {info?.getValue()}
             </Text>
@@ -142,9 +137,8 @@ const MyProfileWalletPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[141px] pb-6 pl-0.5 pt-0.5 text-center text-gray_500 tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[141px] pb-6 pl-0.5 pt-0.5 text-center text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Open Price
           </Text>
@@ -159,9 +153,8 @@ const MyProfileWalletPage = () => {
               alt="sort One"
             />
             <Text
-              className="font-medium mr-[33px] mt-[9px] text-black_900 text-left tracking-[0.14px]"
-              as="p"
-              variant="h1"
+              className="mr-[33px] mt-[9px] text-black_900 tracking-[0.14px]"
+              size="md"
             >
               {info?.getValue()}
             </Text>
@@ -169,9 +162,8 @@ const MyProfileWalletPage = () => {
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[137px] pb-[26px] text-center text-gray_500 tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[137px] pb-[26px] text-center text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Your Offer
           </Text>
@@ -180,18 +172,16 @@ const MyProfileWalletPage = () => {
       tableColumnHelper.accessor("timeLeft", {
         cell: (info) => (
           <Text
-            className="font-medium pb-[25px] pt-[34px] text-black_900 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="pb-[25px] pt-[34px] text-black_900 tracking-[0.14px]"
+            size="md"
           >
             {info?.getValue()}
           </Text>
         ),
         header: (info) => (
           <Text
-            className="font-medium min-w-[85px] pb-[26px] text-gray_500 text-left tracking-[0.14px]"
-            as="p"
-            variant="h1"
+            className="min-w-[85px] pb-[26px] text-gray_500 tracking-[0.14px]"
+            size="md"
           >
             Time Left
           </Text>
@@ -214,16 +204,15 @@ const MyProfileWalletPage = () => {
             />
             <div className="flex flex-col items-start justify-start">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold text-black_900 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Kevin Cranel
               </Text>
               <Text
-                className="font-normal mt-1 not-italic text-gray_500 text-left tracking-[0.14px]"
-                as="h1"
-                variant="h1"
+                className="!font-normal mt-1 text-gray_500 tracking-[0.14px]"
+                size="md"
               >
                 @kecrane
               </Text>
@@ -232,9 +221,8 @@ const MyProfileWalletPage = () => {
           <div className="flex flex-col font-urbanist gap-[30px] items-center justify-start mt-[50px] px-[18px] w-full">
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 GENERAL
               </Text>
@@ -249,11 +237,7 @@ const MyProfileWalletPage = () => {
                       className="h-6 w-6"
                       alt="clock"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Dashboard
                     </Text>
                   </div>
@@ -269,9 +253,8 @@ const MyProfileWalletPage = () => {
                       alt="car"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Message
                     </Text>
@@ -288,9 +271,8 @@ const MyProfileWalletPage = () => {
                       alt="settings"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Settings
                     </Text>
@@ -300,9 +282,8 @@ const MyProfileWalletPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MARKETPLACE
               </Text>
@@ -317,11 +298,7 @@ const MyProfileWalletPage = () => {
                       className="h-6 w-6"
                       alt="user"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Market
                     </Text>
                   </div>
@@ -336,11 +313,7 @@ const MyProfileWalletPage = () => {
                       className="h-6 w-6"
                       alt="judge"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Active Bid
                     </Text>
                   </div>
@@ -355,11 +328,7 @@ const MyProfileWalletPage = () => {
                       className="h-6 w-6"
                       alt="clock One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Saved
                     </Text>
                   </div>
@@ -368,9 +337,8 @@ const MyProfileWalletPage = () => {
             </div>
             <div className="flex flex-col gap-[13px] justify-start w-full">
               <Text
-                className="font-medium ml-4 md:ml-[0] text-gray_901 text-left tracking-[0.12px]"
-                as="h1"
-                variant="h1"
+                className="ml-4 md:ml-[0] text-gray_901 tracking-[0.12px]"
+                size="s"
               >
                 MY PROFILE
               </Text>
@@ -385,11 +353,7 @@ const MyProfileWalletPage = () => {
                       className="h-6 w-6"
                       alt="user One"
                     />
-                    <Text
-                      className="font-medium text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_500 tracking-[0.18px]" size="xl">
                       Collection
                     </Text>
                   </div>
@@ -401,11 +365,7 @@ const MyProfileWalletPage = () => {
                       className="h-6 w-6"
                       alt="calculator"
                     />
-                    <Text
-                      className="font-medium text-gray_900 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_900 tracking-[0.18px]" size="xl">
                       Wallet
                     </Text>
                   </div>
@@ -421,9 +381,8 @@ const MyProfileWalletPage = () => {
                       alt="clock Two"
                     />
                     <Text
-                      className="font-medium mt-[3px] text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="mt-[3px] text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       History
                     </Text>
@@ -447,17 +406,16 @@ const MyProfileWalletPage = () => {
                 />
               </Button>
               <Text
-                className="font-semibold mt-4 text-left text-white_A700 tracking-[0.18px]"
-                as="h1"
-                variant="h1"
+                className="!font-semibold mt-4 text-white_A700 tracking-[0.18px]"
+                as="h6"
+                size="xl"
               >
                 Help Center
               </Text>
               <div className="flex flex-col gap-[30px] items-center justify-start mt-2.5 w-full">
                 <Text
-                  className="font-normal leading-[180.00%] not-italic text-center text-gray_400 tracking-[0.14px]"
-                  as="h1"
-                  variant="h1"
+                  className="!font-normal leading-[180.00%] text-center text-gray_400 tracking-[0.14px]"
+                  size="md"
                 >
                   <>
                     Having trouble in Enefti?
@@ -483,7 +441,7 @@ const MyProfileWalletPage = () => {
               value={searchinputvalue}
               onChange={(e) => setSearchinputvalue(e)}
               wrapClassName="flex md:flex-1 md:mt-0 my-0.5 w-[45%] md:w-full"
-              className="font-normal not-italic p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
+              className="font-normal p-0 placeholder:text-gray_500 text-gray_500 text-left text-sm tracking-[0.14px] w-full"
               name="SearchInput"
               placeholder="Search items, collections, and users"
               prefix={
@@ -558,9 +516,9 @@ const MyProfileWalletPage = () => {
           <div className="flex md:flex-col flex-row font-urbanist gap-[34px] items-center justify-between w-[98%] md:w-full">
             <div className="flex flex-col gap-8 items-start justify-start w-[68%] md:w-full">
               <Text
-                className="font-semibold text-black_900 text-left tracking-[0.34px]"
-                as="h1"
-                variant="h1"
+                className="text-black_900 tracking-[0.34px]"
+                as="h2"
+                size="5xl"
               >
                 Wallet
               </Text>
@@ -584,17 +542,12 @@ const MyProfileWalletPage = () => {
                     <div className="flex flex-col gap-1.5 items-start justify-start w-full">
                       <div className="flex flex-col gap-3 items-center justify-end">
                         <Text
-                          className="font-normal mt-[5px] not-italic text-gray_500 text-left tracking-[0.18px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal mt-[5px] text-gray_500 tracking-[0.18px]"
+                          size="xl"
                         >
                           Total Spending
                         </Text>
-                        <Text
-                          className="font-semibold text-black_900 text-left"
-                          as="h1"
-                          variant="h1"
-                        >
+                        <Text className="text-black_900" as="h4" size="3xl">
                           $432,215.32
                         </Text>
                       </div>
@@ -606,18 +559,16 @@ const MyProfileWalletPage = () => {
                             alt="cursor"
                           />
                           <Text
-                            className="font-normal not-italic text-green_600 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal text-green_600 tracking-[0.14px]"
+                            size="md"
                           >
                             +2.4%
                           </Text>
                         </div>
                         <div className="bg-gray_500 h-1 my-2.5 rounded-[50%] w-1"></div>
                         <Text
-                          className="font-normal mb-0.5 mt-[5px] not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal mb-0.5 mt-[5px] text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           May 17, 2022
                         </Text>
@@ -641,17 +592,12 @@ const MyProfileWalletPage = () => {
                     <div className="flex flex-col gap-1.5 items-start justify-start w-full">
                       <div className="flex flex-col gap-3.5 items-start justify-end">
                         <Text
-                          className="font-normal mt-[3px] not-italic text-gray_500 text-left tracking-[0.18px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal mt-[3px] text-gray_500 tracking-[0.18px]"
+                          size="xl"
                         >
                           Total Income
                         </Text>
-                        <Text
-                          className="font-semibold text-black_900 text-left"
-                          as="h1"
-                          variant="h1"
-                        >
+                        <Text className="text-black_900" as="h4" size="3xl">
                           $21,579.22
                         </Text>
                       </div>
@@ -663,18 +609,16 @@ const MyProfileWalletPage = () => {
                             alt="trendingup"
                           />
                           <Text
-                            className="font-normal not-italic text-left text-red_600 tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal text-red_600 tracking-[0.14px]"
+                            size="md"
                           >
                             -2.32
                           </Text>
                         </div>
                         <div className="bg-gray_500 h-1 my-2.5 rounded-[50%] w-1"></div>
                         <Text
-                          className="font-normal mb-0.5 mt-[5px] not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal mb-0.5 mt-[5px] text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           May 17, 2022
                         </Text>
@@ -698,17 +642,12 @@ const MyProfileWalletPage = () => {
                     <div className="flex flex-col gap-1.5 items-start justify-start w-full">
                       <div className="flex flex-col gap-3 items-start justify-end">
                         <Text
-                          className="font-normal mt-[5px] not-italic text-gray_500 text-left tracking-[0.18px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal mt-[5px] text-gray_500 tracking-[0.18px]"
+                          size="xl"
                         >
                           Total Saving
                         </Text>
-                        <Text
-                          className="font-semibold text-black_900 text-left"
-                          as="h1"
-                          variant="h1"
-                        >
+                        <Text className="text-black_900" as="h4" size="3xl">
                           $68,483.16
                         </Text>
                       </div>
@@ -720,18 +659,16 @@ const MyProfileWalletPage = () => {
                             alt="cursor One"
                           />
                           <Text
-                            className="font-normal not-italic text-green_600 text-left tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal text-green_600 tracking-[0.14px]"
+                            size="md"
                           >
                             +2.4%
                           </Text>
                         </div>
                         <div className="bg-gray_500 h-1 my-2.5 rounded-[50%] w-1"></div>
                         <Text
-                          className="font-normal mb-0.5 mt-[5px] not-italic text-gray_500 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="!font-normal mb-0.5 mt-[5px] text-gray_500 tracking-[0.14px]"
+                          size="md"
                         >
                           May 17, 2022
                         </Text>
@@ -743,18 +680,14 @@ const MyProfileWalletPage = () => {
               <div className="flex flex-col font-outfit gap-[27px] items-center justify-start w-full">
                 <div className="flex flex-row sm:gap-10 items-start justify-between w-full">
                   <Text
-                    className="font-semibold text-black_900 text-left tracking-[0.24px]"
-                    as="h1"
-                    variant="h1"
+                    className="text-black_900 tracking-[0.24px]"
+                    as="h4"
+                    size="3xl"
                   >
                     Recent Activity
                   </Text>
                   <div className="flex flex-col font-urbanist items-center justify-start mt-1">
-                    <Text
-                      className="font-medium text-gray_900 text-left tracking-[0.14px]"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-gray_900 tracking-[0.14px]" size="md">
                       View All
                     </Text>
                   </div>
@@ -794,9 +727,8 @@ const MyProfileWalletPage = () => {
                       <div className="absolute flex flex-row gap-[26px] h-max inset-[0] items-end justify-center m-auto w-[89%]">
                         <div className="flex flex-col items-start justify-start">
                           <Text
-                            className="font-normal not-italic text-left text-white_A700 tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal text-white_A700 tracking-[0.14px]"
+                            size="md"
                           >
                             Local Banking Card
                           </Text>
@@ -817,17 +749,15 @@ const MyProfileWalletPage = () => {
                               alt="Four"
                             />
                             <Text
-                              className="font-normal not-italic text-left text-white_A700_a2 tracking-[0.14px]"
-                              as="h1"
-                              variant="h1"
+                              className="!font-normal text-white_A700_a2 tracking-[0.14px]"
+                              size="md"
                             >
                               3982
                             </Text>
                           </div>
                           <Text
-                            className="font-normal ml-0.5 md:ml-[0] mt-[27px] not-italic text-left text-white_A700 tracking-[0.14px]"
-                            as="h1"
-                            variant="h1"
+                            className="!font-normal ml-0.5 md:ml-[0] mt-[27px] text-white_A700 tracking-[0.14px]"
+                            size="md"
                           >
                             Kevin Cranel
                           </Text>
@@ -845,17 +775,12 @@ const MyProfileWalletPage = () => {
                 <div className="flex flex-col gap-[31px] items-center justify-start mt-[26px] w-full">
                   <div className="flex flex-col gap-[7px] items-center justify-start">
                     <Text
-                      className="font-normal not-italic text-gray_500 text-left tracking-[0.18px]"
-                      as="h1"
-                      variant="h1"
+                      className="!font-normal text-gray_500 tracking-[0.18px]"
+                      size="xl"
                     >
                       Your Balance
                     </Text>
-                    <Text
-                      className="font-semibold text-black_900 text-left"
-                      as="h1"
-                      variant="h1"
-                    >
+                    <Text className="text-black_900" as="h4" size="3xl">
                       $185,424.52
                     </Text>
                   </div>
@@ -884,11 +809,7 @@ const MyProfileWalletPage = () => {
                 </div>
                 <Line className="bg-gray_100 h-px mt-6 w-full" />
                 <div className="flex flex-col gap-[18px] items-start justify-start mt-[31px] w-full">
-                  <Text
-                    className="font-medium text-black_900 text-left tracking-[0.18px]"
-                    as="h1"
-                    variant="h1"
-                  >
+                  <Text className="text-black_900 tracking-[0.18px]" size="xl">
                     Transaction History
                   </Text>
                   <List
@@ -910,16 +831,15 @@ const MyProfileWalletPage = () => {
                         </Button>
                         <div className="flex flex-col items-start justify-start pt-0.5">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Exchange to ETH
                           </Text>
                           <Text
-                            className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="mt-1 text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             Today at 4:13 PM
                           </Text>
@@ -932,9 +852,8 @@ const MyProfileWalletPage = () => {
                           alt="sort Five"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           2.22 ETH
                         </Text>
@@ -956,16 +875,15 @@ const MyProfileWalletPage = () => {
                         </Button>
                         <div className="flex flex-col items-start justify-start">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Enefty Top Up
                           </Text>
                           <Text
-                            className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="mt-1 text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             Today at 4:23 PM
                           </Text>
@@ -978,9 +896,8 @@ const MyProfileWalletPage = () => {
                           alt="sort Six"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           1.32 ETH
                         </Text>
@@ -1002,16 +919,15 @@ const MyProfileWalletPage = () => {
                         </Button>
                         <div className="flex flex-col items-start justify-start pt-0.5">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Open Bid Success
                           </Text>
                           <Text
-                            className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="mt-1 text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             Yesterday at 5:12 AM
                           </Text>
@@ -1024,9 +940,8 @@ const MyProfileWalletPage = () => {
                           alt="sort Seven"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           5.56 ETH
                         </Text>
@@ -1042,16 +957,15 @@ const MyProfileWalletPage = () => {
                         />
                         <div className="flex flex-col items-start justify-start pt-0.5">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Open Bid Success
                           </Text>
                           <Text
-                            className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="mt-1 text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             Yesterday at 3:12 AM
                           </Text>
@@ -1064,9 +978,8 @@ const MyProfileWalletPage = () => {
                           alt="sort Eight"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           2.21 ETH
                         </Text>
@@ -1088,16 +1001,15 @@ const MyProfileWalletPage = () => {
                         </Button>
                         <div className="flex flex-col items-start justify-start">
                           <Text
-                            className="font-semibold text-black_900 text-left tracking-[0.16px]"
-                            as="h1"
-                            variant="h1"
+                            className="text-black_900 tracking-[0.16px]"
+                            as="h6"
+                            size="lg"
                           >
                             Enefty Top Up
                           </Text>
                           <Text
-                            className="font-medium mt-1 text-gray_500 text-left tracking-[0.12px]"
-                            as="h1"
-                            variant="h1"
+                            className="mt-1 text-gray_500 tracking-[0.12px]"
+                            size="s"
                           >
                             Yesterday at 3:12 AM
                           </Text>
@@ -1110,9 +1022,8 @@ const MyProfileWalletPage = () => {
                           alt="sort Nine"
                         />
                         <Text
-                          className="font-medium text-black_900 text-left tracking-[0.14px]"
-                          as="h1"
-                          variant="h1"
+                          className="text-black_900 tracking-[0.14px]"
+                          size="md"
                         >
                           2.32 ETH
                         </Text>
