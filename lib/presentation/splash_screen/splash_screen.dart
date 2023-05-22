@@ -17,7 +17,7 @@ class SplashScreen extends GetWidget<SplashController> {
               CustomImageView(
                 svgPath: ImageConstant.imgGroup47,
                 height: getVerticalSize(
-                  147,
+                  150,
                 ),
                 width: getHorizontalSize(
                   208,
