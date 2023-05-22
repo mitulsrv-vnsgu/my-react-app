@@ -22,7 +22,6 @@ class SplashScreen extends GetWidget<SplashController> {
                 width: getHorizontalSize(
                   208,
                 ),
-                alignment: Alignment.centerLeft,
                 margin: getMargin(
                   bottom: 5,
                 ),
